@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "PosCustomerFlow",
+    "buildTool": "maven",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "devDatabaseType": "h2Disk",
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entities": ["Customer"],
+    "jhipsterVersion": "8.11.0",
+    "jwtSecretKey": "NTkxMmUwZDVjNmYxOTFlMzgzNDgzN2Q0NDZkZTg4NTljYjM0YTljZTY0ZDY0NDIxMmUxZGRlZGJiOTkzN2ZiNTlkMDQzNjM1NWI4ZDM1NDlkMTRiMmE3ZGYxOWEwOWEyNjZjZTBjOWVhNGY4Y2U5NWNjMjkyZmI2YmZiMTJiMjA=",
+    "languages": ["en", "bn", "hi", "mr", "ta", "te"],
+    "lastLiquibaseTimestamp": 1749311741000,
+    "nativeLanguage": "en",
+    "packageName": "com.pos.customer",
+    "prodDatabaseType": "postgresql",
+    "serverPort": "9001"
+  }
+}
