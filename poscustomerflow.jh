@@ -1,0 +1,67 @@
+
+application {
+  config {
+    baseName PosCustomerFlow
+    applicationType monolith
+    serverPort 9001
+    devDatabaseType h2Disk
+    prodDatabaseType postgresql
+    clientFramework react
+    clientPackageManager npm
+    authenticationType jwt
+    buildTool maven
+    enableSwaggerCodegen true
+    enableTranslation true
+    languages	[bn, hi, en, mr, ta, te]
+    nativeLanguage	en
+    packageName com.pos.customer
+  }
+  entities *
+  dto * with mapstruct
+  paginate * with infinite-scroll
+  service all with serviceImpl
+  filter *
+}
+
+
+entity Customer {
+  fname String
+  lname String
+  mobileNo String required
+  emailId String 
+  rposCustomerId String
+  isActive Boolean
+  createdAt Instant
+  updatedAt Instant
+  createdBy String
+  updatedBy String
+}
+
+entity AddressDetails {
+  addressDetailType AddressType
+  mobileNo String
+  name String
+  label String
+  addressLine1 String
+  addressLine2 String
+  addressLine3 String
+  floorNo String
+  pincode Long
+  area String
+  city String
+  country String
+  landmark String
+  latitude Float
+  longitude Float
+  isActive Boolean
+  createdAt Instant
+  updatedAt Instant
+  createdBy String
+  updatedBy String
+}
+
+enum AddressType {
+	Billing,
+    Shipping
+}
+
