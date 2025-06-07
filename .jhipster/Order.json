@@ -1,0 +1,54 @@
+{
+  "annotations": {
+    "changelogDate": "20250607160305"
+  },
+  "applications": ["PosCustomerFlow"],
+  "dto": "mapstruct",
+  "entityTableName": "jhi_order",
+  "fields": [
+    {
+      "fieldName": "sourceType",
+      "fieldType": "SourceType",
+      "fieldValues": "RPOS,ASP,Other"
+    },
+    {
+      "fieldName": "isActive",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "createdAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "updatedAt",
+      "fieldType": "Instant"
+    },
+    {
+      "fieldName": "createdBy",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "updatedBy",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Order",
+  "pagination": "infinite-scroll",
+  "relationships": [
+    {
+      "otherEntityName": "addressDetails",
+      "relationshipName": "selectedAddress",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "customer",
+      "relationshipName": "customer",
+      "relationshipSide": "left",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

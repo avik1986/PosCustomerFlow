@@ -1,0 +1,31 @@
+{
+  "posCustomerFlowApp": {
+    "order": {
+      "home": {
+        "title": "Orders",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Order तयार करा",
+        "createOrEditLabel": "Order तयार किंवा संपादित करा",
+        "notFound": "No Orders found"
+      },
+      "created": "Order [identifier: {{ param }}] तयार आहे",
+      "updated": "Order [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Order [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Order [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Order"
+      },
+      "id": "ID",
+      "sourceType": "Source Type",
+      "isActive": "Is Active",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "selectedAddress": "Selected Address",
+      "customer": "Customer"
+    }
+  }
+}

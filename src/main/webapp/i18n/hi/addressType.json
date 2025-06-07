@@ -1,0 +1,9 @@
+{
+  "posCustomerFlowApp": {
+    "AddressType": {
+      "null": "",
+      "Billing": "Billing",
+      "Shipping": "Shipping"
+    }
+  }
+}

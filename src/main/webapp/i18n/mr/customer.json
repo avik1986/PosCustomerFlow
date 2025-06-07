@@ -1,0 +1,34 @@
+{
+  "posCustomerFlowApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Customer तयार करा",
+        "createOrEditLabel": "Customer तयार किंवा संपादित करा",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer [identifier: {{ param }}] तयार आहे",
+      "updated": "Customer [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Customer [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Customer [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "fname": "Fname",
+      "lname": "Lname",
+      "mobileNo": "Mobile No",
+      "emailId": "Email Id",
+      "rposCustomerId": "Rpos Customer Id",
+      "isActive": "Is Active",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "addressDetails": "Address Details"
+    }
+  }
+}
