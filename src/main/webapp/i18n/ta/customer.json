@@ -1,0 +1,34 @@
+{
+  "posCustomerFlowApp": {
+    "customer": {
+      "home": {
+        "title": "Customers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Customer-ஐ உருவாக்கு",
+        "createOrEditLabel": "Customer -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Customers found"
+      },
+      "created": "Customer புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Customer மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Customer நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Customer {{ id }}?"
+      },
+      "detail": {
+        "title": "Customer"
+      },
+      "id": "ID",
+      "fname": "Fname",
+      "lname": "Lname",
+      "mobileNo": "Mobile No",
+      "emailId": "Email Id",
+      "rposCustomerId": "Rpos Customer Id",
+      "isActive": "Is Active",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "addressDetails": "Address Details"
+    }
+  }
+}

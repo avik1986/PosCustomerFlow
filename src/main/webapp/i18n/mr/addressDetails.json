@@ -1,0 +1,44 @@
+{
+  "posCustomerFlowApp": {
+    "addressDetails": {
+      "home": {
+        "title": "Address Details",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "नवीन Address Details तयार करा",
+        "createOrEditLabel": "Address Details तयार किंवा संपादित करा",
+        "notFound": "No Address Details found"
+      },
+      "created": "Address Details [identifier: {{ param }}] तयार आहे",
+      "updated": "Address Details [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Address Details [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Address Details [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Address Details"
+      },
+      "id": "ID",
+      "addressDetailType": "Address Detail Type",
+      "mobileNo": "Mobile No",
+      "name": "Name",
+      "label": "Label",
+      "addressLine1": "Address Line 1",
+      "addressLine2": "Address Line 2",
+      "addressLine3": "Address Line 3",
+      "floorNo": "Floor No",
+      "pincode": "Pincode",
+      "area": "Area",
+      "city": "City",
+      "country": "Country",
+      "landmark": "Landmark",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "isActive": "Is Active",
+      "createdAt": "Created At",
+      "updatedAt": "Updated At",
+      "createdBy": "Created By",
+      "updatedBy": "Updated By",
+      "customer": "Customer"
+    }
+  }
+}

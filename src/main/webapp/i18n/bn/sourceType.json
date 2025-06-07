@@ -1,0 +1,10 @@
+{
+  "posCustomerFlowApp": {
+    "SourceType": {
+      "null": "",
+      "RPOS": "RPOS",
+      "ASP": "ASP",
+      "Other": "Other"
+    }
+  }
+}
